@@ -126,6 +126,11 @@
     grid-row: 17;
   }
 
+  .description {
+    grid-column:20;
+    grid-row: 15;
+  }
+
   /* font-size responsiveness */
 
   /* If screen size is 1000px wide or less, set font-size of <div> to 15px */
@@ -138,6 +143,7 @@
     .collection {font-size: 50px; font-family: "Jersey 15", sans-serif;}
     .of {font-size: 60px; font-family: "Kode Mono", monospace;}
     .miscellany {font-size: 100px; font-family: "Jersey 20 Charted", sans-serif;}
+    .description {font-size: 22px; font-family: "Jersey 20 Charted", sans-serif;}
   }
   
   /* If the screen size is 1001px wide or more, set the font-size of <div> to 30px */
@@ -150,6 +156,7 @@
     .collection {font-size: 60px; font-family: "Pinyon Script", cursive;}
     .of {font-size: 70px; font-family: "Jersey 15", sans-serif;}
     .miscellany {font-size: 130px; font-family: "Kode Mono", monospace;}
+    .description {font-size: 20px; font-family: "Kode Mono", monospace;}
   }
 
   /* If screen size is 1000px wide or less, set font-size of <div> to 15px */
@@ -162,4 +169,5 @@
     .collection {font-size: 30px; font-family: "Jersey 20 Charted", sans-serif;}
     .of {font-size: 40px; font-family: "Pinyon Script", cursive;}
     .miscellany {font-size: 60px; font-family: "Jersey 15", sans-serif;}
+    .description {font-size: 12px; font-family: "Kode Mono", monospace;}
   }
