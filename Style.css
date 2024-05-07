@@ -101,12 +101,13 @@
 
   .container-dos {
     display: grid;
+    margin-left: 20%;
     grid-auto-rows: 30px;
   }
 
   .le {
-    grid-column: 28;
-    grid-row: 4;
+    grid-column: 34;
+    grid-row: 3;
     transform: rotate(-90deg);
   }
 
@@ -116,19 +117,19 @@
   }
 
   .of {
-    grid-column: 26;
+    grid-column: 32;
     grid-row: 12;
     writing-mode: vertical-rl;
   }
 
-  .miscellany {
-    grid-column: 25;
+  .failure {
+    grid-column: 30;
     grid-row: 15;
   }
 
   .description {
-    grid-column:27;
-    grid-row: 17;
+    grid-column:35;
+    grid-row: 18;
   }
 
   /* font-size responsiveness */
@@ -141,8 +142,8 @@
       color: rgb(0, 47, 255);}
     .le {font-size: 30px; font-family: "Pinyon Script", cursive;}
     .collection {font-size: 50px; font-family: "Jersey 15", sans-serif;}
-    .of {font-size: 60px; font-family: "Kode Mono", monospace;}
-    .miscellany {font-size: 100px; font-family: "Jersey 20 Charted", sans-serif;}
+    .of {font-size: 40px; font-family: "Kode Mono", monospace;}
+    .failure {font-size: 40px; font-family: "Jersey 20 Charted", sans-serif;}
     .description {font-size: 22px; font-family: "Jersey 20 Charted", sans-serif;}
     .menu__box2, .menu__item {font-size: 15px}
   }
@@ -155,8 +156,8 @@
       color: rgb(0, 255, 0);}
     .le {font-size: 40px; font-family: "Jersey 20 Charted", sans-serif;}
     .collection {font-size: 60px; font-family: "Pinyon Script", cursive;}
-    .of {font-size: 70px; font-family: "Jersey 15", sans-serif;}
-    .miscellany {font-size: 130px; font-family: "Kode Mono", monospace;}
+    .of {font-size: 50px; font-family: "Jersey 15", sans-serif;}
+    .failure {font-size: 50px; font-family: "Kode Mono", monospace;}
     .description {font-size: 20px; font-family: "Kode Mono", monospace;}
     .menu__box2, .menu__item {font-size: 20px}
   }
@@ -169,8 +170,8 @@
       color: rgb(255, 255, 0);}
     .le {font-size: 10px; font-family: "Kode Mono", monospace;}
     .collection {font-size: 30px; font-family: "Jersey 20 Charted", sans-serif;}
-    .of {font-size: 40px; font-family: "Pinyon Script", cursive;}
-    .miscellany {font-size: 60px; font-family: "Jersey 15", sans-serif;}
+    .of {font-size: 20px; font-family: "Pinyon Script", cursive;}
+    .failure {font-size: 20px; font-family: "Jersey 15", sans-serif;}
     .description {font-size: 12px; font-family: "Kode Mono", monospace;}
     .menu__box2, .menu__item {font-size: 12px}
   }
