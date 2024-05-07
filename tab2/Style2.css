@@ -1,15 +1,5 @@
 /* start of bouncing icon */
 
-/* .container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: white; /* Black background color}
- */
-
-
 .logo {
     position: absolute;
     cursor: pointer;
