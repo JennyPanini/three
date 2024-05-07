@@ -137,9 +137,10 @@ a {
   color: black;
 }
 
-span {
-  text-decoration: underline;
+a:hover {
+    color: rgb(0, 255, 0);
 }
+
 
 span:hover, .menu__item:hover {
     font-family: "Pinyon Script", cursive;
