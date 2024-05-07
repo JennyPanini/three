@@ -1,6 +1,11 @@
 body {
     background-color: rgb(255, 255, 0);
-    font-family: "Kode Mono", monospace;}
+    font-family: "Kode Mono", monospace;
+}
+    
+/* <!-- codepen exercise image drag --> */
+
+/* <!-- end of codepen --> */
 
   /* for nav icon left */
 #menu__toggle {
