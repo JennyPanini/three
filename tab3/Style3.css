@@ -165,4 +165,5 @@ span:hover, .menu__item:hover {
 .button:hover {
   transition-duration: .25s;
   color: rgb(0, 255, 0);
+  font-family: "Pinyon Script", cursive;
 }
