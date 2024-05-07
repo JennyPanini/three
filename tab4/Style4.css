@@ -2,6 +2,18 @@ body {
     background-color: rgb(255, 255, 0);
     font-family: "Kode Mono", monospace;
 }
+    
+/* <!-- codepen exercise image drag --> */
+.draggable {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .draggable img {
+    cursor: grab;
+    transition: box-shadow 0.3s ease;
+  }
+/* <!-- end of codepen --> */
 
   /* for nav icon left */
 #menu__toggle {
