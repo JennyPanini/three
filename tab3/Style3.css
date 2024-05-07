@@ -4,7 +4,15 @@ body {
 }
     
 /* <!-- codepen exercise image drag --> */
+.draggable {
+    position: absolute;
+    z-index: 1;
+  }
 
+  .draggable img {
+    cursor: grab;
+    transition: box-shadow 0.3s ease;
+  }
 /* <!-- end of codepen --> */
 
   /* for nav icon left */
