@@ -59,7 +59,6 @@ body {
   }
   
   .menu__box {
-    display: block;
     position: fixed;
     visibility: hidden;
     top: 0;
@@ -94,7 +93,8 @@ body {
 
 
 .menu__item:hover {
-    color: rgb(255, 255, 0);}
+    color: rgb(255, 255, 0);
+  }
 
 
   .container {
@@ -108,17 +108,6 @@ body {
     margin: 20px;
     margin-left: 50vw;
   }
-/* 
-
-  .title {
-    grid-column: 10;
-    grid-row: 7;
-  }
-
-  .content {
-    grid-column:20;
-    grid-row: 15;
-  } */
 
   /* font-size responsiveness */
 
@@ -139,3 +128,35 @@ body {
     .title {font-size: 20px}
     .content {font-size: 12px}
   }
+
+  .hiddenimg {
+    display: none;
+}
+
+/* shows the images on hover for certain span text */
+.hiddentxt:hover + .hiddenimg {
+    display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  text-decoration: underline;
+}
+
+
+.menu__box2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.button:hover {
+  transition-duration: .25s;
+  color: rgb(255, 255, 0);
+}
