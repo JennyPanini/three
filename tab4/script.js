@@ -17,9 +17,9 @@ makeImagesDraggable(document.querySelectorAll('.draggable'));
         isDragging = true;
         currentZIndex += 1;
         elmnt.style.zIndex = currentZIndex;
-        // Store the original image width
+        // image width ye
         elmnt.originalWidth = parseFloat(getComputedStyle(elmnt.querySelector("img")).width);
-        // Add a larger shadow
+        // shadow
         elmnt.querySelector("img").style.boxShadow = "10px 10px 20px rgba(0, 0, 0, 0.7)";
       }
 
@@ -32,7 +32,7 @@ makeImagesDraggable(document.querySelectorAll('.draggable'));
           pos4 = e.clientY;
           elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
           elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-          // Maintain the original image width
+          // Maintain original image width
           elmnt.querySelector("img").style.width = elmnt.originalWidth + "px";
         }
       }
@@ -41,7 +41,7 @@ makeImagesDraggable(document.querySelectorAll('.draggable'));
         document.onmouseup = null;
         document.onmousemove = null;
         isDragging = false;
-        // Reset the shadow
+        // shadow reset
         elmnt.querySelector("img").style.boxShadow = "none";
       }
     });
