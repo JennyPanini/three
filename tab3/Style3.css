@@ -167,3 +167,7 @@ span:hover, .menu__item:hover {
 img {
   filter: grayscale(1);
 }
+
+span {
+  text-decoration: underline;
+}
