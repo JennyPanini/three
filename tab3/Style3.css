@@ -163,3 +163,7 @@ span:hover, .menu__item:hover {
   color: rgb(0, 255, 0);
   font-family: "Pinyon Script", cursive;
 }
+
+img {
+  filter: grayscale(1);
+}
