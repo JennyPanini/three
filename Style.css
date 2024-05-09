@@ -122,6 +122,16 @@
     writing-mode: vertical-rl;
   }
 
+  .button {
+    grid-column: 34;
+    grid-row: 17;
+  }
+
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+
   .failure {
     grid-column: 30;
     grid-row: 15;
@@ -142,10 +152,11 @@
       color: rgb(0, 47, 255);}
     .le {font-size: 30px; font-family: "Pinyon Script", cursive;}
     .collection {font-size: 50px; font-family: "Jersey 15", sans-serif;}
-    .of {font-size: 40px; font-family: "Kode Mono", monospace;}
+    .of, .button {font-size: 40px; font-family: "Kode Mono", monospace;}
     .failure {font-size: 40px; font-family: "Jersey 20 Charted", sans-serif;}
     .description {font-size: 22px; font-family: "Jersey 20 Charted", sans-serif;}
     .menu__box2, .menu__item {font-size: 15px}
+    a:hover {transition-duration: .25s; color: rgb(0, 47, 255);}
   }
   
   /* If the screen size is 1001px wide or more, set the font-size of <div> to 30px */
@@ -156,10 +167,11 @@
       color: rgb(0, 255, 0);}
     .le {font-size: 40px; font-family: "Jersey 20 Charted", sans-serif;}
     .collection {font-size: 60px; font-family: "Pinyon Script", cursive;}
-    .of {font-size: 50px; font-family: "Jersey 15", sans-serif;}
+    .of, .button {font-size: 50px; font-family: "Jersey 15", sans-serif;}
     .failure {font-size: 50px; font-family: "Kode Mono", monospace;}
     .description {font-size: 20px; font-family: "Kode Mono", monospace;}
     .menu__box2, .menu__item {font-size: 20px}
+    a:hover {transition-duration: .25s; color: rgb(0, 255, 0); font-family: "Pinyon Script", cursive;}
   }
 
   /* If screen size is 1000px wide or less, set font-size of <div> to 15px */
@@ -170,8 +182,9 @@
       color: rgb(255, 255, 0);}
     .le {font-size: 10px; font-family: "Kode Mono", monospace;}
     .collection {font-size: 30px; font-family: "Jersey 20 Charted", sans-serif;}
-    .of {font-size: 20px; font-family: "Pinyon Script", cursive;}
+    .of, .button {font-size: 20px; font-family: "Pinyon Script", cursive;}
     .failure {font-size: 20px; font-family: "Jersey 15", sans-serif;}
     .description {font-size: 12px; font-family: "Kode Mono", monospace;}
     .menu__box2, .menu__item {font-size: 12px}
+    a:hover {transition-duration: .25s; color: rgb(255, 255, 0);}
   }
